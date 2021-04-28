@@ -1,0 +1,27 @@
+{
+  "name": "basic-users-system",
+  "version": "1.0.0",
+  "description": "users can register, login and edit their profile",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "authentication",
+    "users-system"
+  ],
+  "author": "Joshua Oladeji",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
